@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">В поисках пива 1.01</string>
+    <string name="Button">Найти</string>
+    <string name="Array_text">Выберите параметры</string>
+    <string-array name="Cvet_piva">
+        <item>Цвет пива</item>
+        <item>Светлое</item>
+        <item>Тёмное</item>
+        <item>Янтарное</item>
+
+    </string-array>
+
+
+
+</resources>
