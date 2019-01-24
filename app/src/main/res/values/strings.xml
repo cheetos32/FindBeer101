@@ -7,8 +7,14 @@
         <item>Светлое</item>
         <item>Тёмное</item>
         <item>Янтарное</item>
+    </string-array>
+    <string-array name="Proizvodstvo">
+        <item>Производство</item>
+        <item>Россия</item>
+        <item>США</item>
 
     </string-array>
+
 
 
 

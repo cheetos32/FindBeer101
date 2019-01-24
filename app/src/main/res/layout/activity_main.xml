@@ -7,17 +7,18 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/idArray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/Array_text"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"
-        android:id="@+id/idArray"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/idButton"
@@ -26,25 +27,38 @@
         android:onClick="onClickPoisk"
         android:text="@string/Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <Spinner
         android:id="@+id/idSpinner"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:entries="@array/Cvet_piva"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.05"
+
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073"
+        app:layout_constraintVertical_bias="0.050000012" />
 
-
-        />
+    <Spinner
+        android:id="@+id/idSpinner2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Proizvodstvo"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idSpinner"
+        app:layout_constraintVertical_bias="0.058" />
 
 </android.support.constraint.ConstraintLayout>
